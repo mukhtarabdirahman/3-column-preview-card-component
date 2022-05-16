@@ -1,0 +1,75 @@
+#container{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+    
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px     0      0           10px;
+
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 0     10px      10px           0;
+
+}
+.btn {
+    margin-top: 40px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    background-color: hsl(0, 0%, 95%);
+}
+.se {
+    color: hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+}
+.su {
+    color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+}
+.lu {
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+}
+.attribution{
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* @media (min-width:1440px) {
+    #container{
+        width: 60%;
+    }
+} */
